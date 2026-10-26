@@ -1,0 +1,47 @@
+{
+  "name": "study-pacer",
+  "version": "0.1.0",
+  "description": "参考書や問題集のページ数を締め切りから逆算して、1日あたりのページ数を出す",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T-REX1996/study-pacer.git"
+  },
+  "keywords": [
+    "study",
+    "planner",
+    "pace",
+    "deadline",
+    "cli",
+    "japanese"
+  ],
+  "author": "T-REX1996",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/T-REX1996/study-pacer/issues"
+  },
+  "homepage": "https://github.com/T-REX1996/study-pacer#readme",
+  "engines": {
+    "node": ">=22"
+  },
+  "files": [
+    "src",
+    "bin"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.13.0",
+    "globals": "^17.13.0",
+    "prettier": "^3.9.10"
+  },
+  "bin": {
+    "study-pacer": "bin/study-pacer.js"
+  }
+}
