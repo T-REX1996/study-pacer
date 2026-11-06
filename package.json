@@ -1,6 +1,6 @@
 {
   "name": "study-pacer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "参考書や問題集のページ数を締め切りから逆算して、1日あたりのページ数を出す",
   "main": "src/index.js",
   "scripts": {
